@@ -1,0 +1,55 @@
+.container
+{
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-choice
+{
+    margin: 30px;
+}
+
+.computer-choice
+{
+    margin: 30px;
+}
+
+.result
+{
+    color: red;
+    margin: 30px;
+}
+
+#user-choice
+{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+#computer-choice
+{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+#result
+{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.button-container
+{
+    display: flex;
+}
+
+button
+{
+    width: 100px;
+    height: 40px;
+    margin: 30px;
+    cursor: pointer;
+}
